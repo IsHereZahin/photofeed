@@ -39,7 +39,7 @@ const LanguageSwitcher = () => {
     <div className="flex gap-4 items-center">
       <div className="relative">
         <button
-          className="flex items-center gap-2 px-3 py-2 rounded-md border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+          className="flex items-center gap-2 px-3 py-2 rounded-md border border-gray-300 transition"
           onClick={() => setShowMenu(!showMenu)}
         >
           {selectedLanguage.icon}
@@ -47,13 +47,13 @@ const LanguageSwitcher = () => {
         </button>
 
         {showMenu && (
-          <div className="absolute right-0 top-full mt-2 w-40 rounded-md bg-white dark:bg-zinc-900 p-2 z-10 shadow-lg border border-gray-200 dark:border-gray-700">
+          <div className="absolute right-0 top-full mt-2 w-40 rounded-md bg-white p-2 z-10 shadow-lg border border-gray-200">
             {languages.map((entry) => (
               <button
                 key={entry.code}
                 type="button"
                 onClick={() => handleLanguageChange(entry.code)}
-                className="flex items-center gap-2 p-2 rounded-md cursor-pointer hover:bg-gray-100 dark:hover:bg-zinc-800 w-full text-left"
+                className="flex items-center gap-2 p-2 rounded-md cursor-pointer hover:bg-gray-100 w-full text-left"
               >
                 {entry.icon}
                 {entry.language}

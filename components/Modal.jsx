@@ -24,7 +24,7 @@ const Modal = ({ children }) => {
     <dialog
       ref={modalRef}
       onClose={onHide}
-      className="shadow-gary-500 shadow-2xl border border-gray-400 flex flex-col px-5 py-6 rounded-md dark:bg-black dark:bg-opacity-95 dark:text-gray-100"
+      className="shadow-gary-500 shadow-2xl border border-gray-400 flex flex-col px-5 py-6 rounded-md"
     >
       {/* Close Icon */}
       <span

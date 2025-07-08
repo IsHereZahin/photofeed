@@ -10,7 +10,7 @@ export default function GlobalError({ error, reset }) {
     return (
         <div className="min-h-[80vh] flex items-center justify-center flex-col gap-4 text-center">
             <h1 className="text-3xl font-bold text-red-600">Something went wrong!</h1>
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-gray-600">
                 {error?.message || "An unexpected error occurred."}
             </p>
             <button

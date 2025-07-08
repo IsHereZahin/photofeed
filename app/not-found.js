@@ -7,11 +7,11 @@ export default function NotFound() {
     const router = useRouter();
 
     return (
-        <section className="min-h-[80vh] flex items-center justify-center dark:bg-neutral-900 px-6">
+        <section className="min-h-[80vh] flex items-center justify-center px-6">
             <div className="max-w-xl text-center">
-                <h1 className="text-7xl font-bold text-gray-900 dark:text-white mb-4">404</h1>
+                <h1 className="text-7xl font-bold text-gray-900 mb-4">404</h1>
 
-                <p className="text-2xl text-gray-700 dark:text-gray-300 mb-6">
+                <p className="text-2xl text-gray-700 mb-6">
                     This page is not found!
                 </p>
 
