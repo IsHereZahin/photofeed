@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://photofeed-isherezahin.vercel.app/" align="center">
+  <img src="./public/preview.png" alt="PhotoFeed Preview" />
+</a>
 
-## Getting Started
+<h2 align="center">PhotoFeed</h2>
 
-First, run the development server:
+A dynamic internationalized photo sharing app built with Next.js App Router for learning purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 About
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**PhotoFeed** is a full-featured frontend application created as a part of a learning journey. Built with **Next.js App Router**, it supports both English and Bangla languages, dynamic routing, modals, and responsive design. It consumes data from a backend API and displays user-shared images in a modern UI.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> **Note:** This is a frontend-only project. You will need the backend API running separately to use all features.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🌐 **Language Switcher** – Supports English and Bangla with dynamic routing
+- 🖼️ **Image Feed** – View and explore shared images
+- 🔍 **Modal Viewer** – Click to view image details in a modal with scroll locking
+- ⚡ **Dynamic Routing** – Uses App Router (`/app`) for structured pages
+- 📱 **Responsive Design** – Mobile-first layout using Tailwind CSS v4.1
+- 🚀 **Optimized for Performance** – Deployed with Vercel and supports image optimization
+- 🧭 **404 & Error Pages** – Gracefully handles unknown routes and fetch failures
+- 🧠 **Educational Project** – Built with best practices from LWS Reactive Accelerator
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎓 Learning Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Created by:** Zahin
+- **Instructors:** Sumit & Tapas
+- **Platform:** Learn with Sumit – Reactive Accelerator Course
+- **Goal:** Practice full Next.js App Router features and frontend fundamentals
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
