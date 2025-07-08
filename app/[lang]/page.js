@@ -1,13 +1,12 @@
 import Image from "next/image";
 import { getDictionary } from "./disctionaries";
+import PhotoList from "@/components/PhotoList";
 
-export default async function Home({ params: { lang } }) {
-  // console.log(lang);
-  const dictionary = await getDictionary(lang);
+export default async function Home() {
+  const response = await fetch(`${process.env.BASE_API_URL}/photos`);
+  const photos = await response.json();
 
   return (
-    <div>
-      <h1>{dictionary.views}</h1>
-    </div>
+    <PhotoList photos={photos} />
   );
 }
